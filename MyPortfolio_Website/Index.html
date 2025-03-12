@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 	<head>
-		<meta charset="UTF-8">
-		<title>Joshua Dean Portfolio</title>
+		<meta charset="UTF-8"> <!--This allows special characters to be seen-->
+		<meta name="viewport" content="width=device-width,intial-scale=1"> <!--This allows mobile device view scaling-->
+		<title>Joshua Dean</title>
+		<meta name="description" content="This is Joshua Dean and this is my portfolio website that I have built to showcase my ability.">
+		
+		<!--og is to be able to share the website link and social media sites see previews of this site-->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Joshua's Portofolio">
+		<meta property="og:description" content="This is Joshua Dean and this is my portfolio website that I have built to showcase my ability.">
+		
+		<!--Below is commented out because for an og:image you need a full url for the preview to reach-->
+		<!--<meta property="og:image" content="https://mywebsite.com/images/socialmedia-logo.png">-->
+		
+		<!--Below is to link any javascript files or CSS files to the doc-->
 		<link rel="stylesheet" href="css/style.css">
-		<!--
-		<script>
-			function myFunction(){
-			var name=localStorage.getItem("usname");
-			document.getElementById("uname").innerHTML=name;
-			}
-		</script>
-		-->
+		
 
 	</head>
+	<body>
 	
-	<!--<body onload="myFunction()">-->
-		<header>
-			<H1>
-					<nav>
-					
-					<table cellspacing="10" cellpadding="10">
-							<tr>
-								<td><img src="img/homepage.jpg"
-									width="80" height="80" class="center"								
-									/></a></td>
-								
-								<td>Joshua Dean's Portofolio</td>				
-							</tr>
-						</table>
-					
-					
-					</nav>       
-					
-					
-				
-				
-				
-				
-				</H1>
-			
-		</header>
-		<div class="gradiant-bg">
-	
-		
-			<nav>
-				<table cellspacing="10" cellpadding="10">
-					<tr>
-							<td>
-								<a href="Resume.html">
-								<img title="Resume" src="img/resume.jpg"
-								width="50" height="50" class="center"								
-								/></a>
-							</td>
-							<td>
-								<a 	href="AboutMe.html">
-								<img title="About Me" src="img/about.jpg" 
-									width="50" height="50" class="center" 
-								></a>
-							</td>
-					</tr>
-				</table>
+		<header class="header">
+			<nav class="header-nav">
+				</div>
+				<div title="nav-title">
+					<a class="nav-brand" href="/MyPortfolio_Website/Index.html">Joshua
+					</a>
+				</div>
+				<div class="nav-links">
+					<div class="nav-link">
+						<a href="Index.html" aria-label="home">Home</a>
+					</div>
+					<div class="nav-link">
+						<a href="AboutMe.html" aria-label="About">About</a>
+					</div>
+					<div class="nav-link">
+						<a href="Resume.html" aria-label="Resume">Resume</a>
+					</div>
+				</div>
 			</nav>
+		</header>
 		
-			
-		<h2>My name is Joshua Dean</h2>
-			<p>
-			This is my custom portfolio page and I am so glad you have 
-			taken the time to stop by and taken a look at my page.
-			</p>
-			<p>
-				This page is to showcase my ability and to give you a way to look at my
-				previous work and education. At the top of the page you will
-				some logos that will redirect you to location.
-						</p>
+		<main id="content">
+			<section class="section-about">
+			<div class="main-icon">
+				<img src="coffee.jpg" alt= "icon">
+			</div>
+			<h1>Joshua Dean</h1>
+			<h2>This is my custom portfolio page and I am so glad you have 
+				taken the time to stop by and took a look at my page.</h2>
+			</section>
+			<div class="flex-break"></div>
+			<div class="social-icons">
+				<ul class="social-icons-list">
+					<li class="social-icon">
+						<a href="https://www.linkedin.com/in/joshua-d-3a76a1184/" aria-label="Learn more about me on my Linkedin">Linkedin</a>
+					</li>
+					<li class="social-icon">
+						<a href="https://github.com/JDeanTech" aria-label="Check out more on my GitHub">Github</a>
+					</li>
+					<li class="social-icon">
+						<a href="https://www.youtube.com/@jdean9317" aria-label="Check out my youtube">YouTube</a>
+					</li>
+				</ul>
+			</div>
+		
+		
+			</main>
+			<footer class="Footer">
+
+
+				
+			</footer>
+
+
+
+
+
+
+
+
+		
+		
+		
 			
 			
 			
@@ -83,4 +93,5 @@
 		Copyright &copy; Joshua Dean 2023-2024
 		</footer>
 	</div>
+
 	</body>
