@@ -1,0 +1,119 @@
+/*This is the css file for the Index.html file*/
+
+/*body styling for the entire body*/
+body {
+    background-color:rgb(48, 65, 88) 
+}
+
+.main-nav{
+    flex: 1;
+}
+/*h1 styling*/
+h1 {
+    color:whitesmoke;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/*h2 styling*/
+h2{
+    color: whitesmoke;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+/*p styling*/
+p{
+    color: whitesmoke;
+    font-size: 12px;
+}
+/*header styling for the entire header*/
+.header{
+    display: flex;
+    
+    align-items: center;
+    padding: 10px;
+    background-color:rgb(48, 65, 88);
+    font-size: 20px;
+    margin: 0;
+}
+/*image styling for header logo*/
+.logo-nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/*Header Navigation Parent nav Styling*/
+.header-nav{
+    flex: 1;
+}
+/*Header navigation links alignment styling*/
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+/*This styles the Joshua link to the left*/
+.nav-joshua{
+    margin-right: auto;
+}
+
+/*this prepares alignment for the social icons (parent nav)*/
+.social-nav{
+    flex: 1;
+}
+/*This formats/aligns the <ul class="social-icons-list">*/
+.social-icons-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+
+}
+
+/*This styles the text of all <a> links*/
+a {
+color: whitesmoke;
+text-decoration: none;
+cursor: pointer;
+transition: background-color 0.3s ease;
+
+}
+
+/*This styles all <a> links hover style*/
+a:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+/* This styles the main logo to the center*/
+.main-logo-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*This styles the main logo size*/
+.main-logo-nav img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+
+

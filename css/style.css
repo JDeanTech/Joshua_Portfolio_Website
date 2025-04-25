@@ -1,0 +1,174 @@
+*{/* Reset all elements to have no margin or padding */
+   /* and set box-sizing to border-box for consistent sizing */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color:grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+main{
+    background-color: rgb(48, 65, 88);
+    width: 100%;
+    max-width:31rem;
+    margin: 8rem auto;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.main-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/*main image formatting */
+.main-img{
+    margin-bottom: 25px;
+}
+
+.main-img img{
+    width: 125px;
+    height: 125px;
+    border-radius: 75px;;
+}
+
+/*entire header-nav div formatting*/
+.header-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    
+
+
+}
+
+/*header left div formatting */
+.left-div{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.left-div img{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+}
+
+.header-joshua{
+    list-style: none;
+
+}
+.header-joshua li a{
+    color:black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding:15px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 700;
+    
+
+}
+.header-joshua li a:hover{
+    color: blue;
+    fill: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/*header right formatting */
+.header-links{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 25px;
+    
+}
+
+.header-links li a{
+    color:black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding:15px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.header-links li a:hover{
+    color: blue;
+    fill: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.location{
+    margin-top: 15px;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.2rem;;
+}
+
+.description1{
+    margin-top: 35px;
+    font-size: 1.0rem;
+    margin-bottom: 15px;
+}
+.description2{
+    
+    margin-bottom: 30px;
+    font-size: 1.0rem;
+}
+
+/*This handles the social links listing/column/centering formatting*/
+.social-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+    
+
+}
+
+/*This handles the social links block type formatting and borders*/
+.social-links li a{
+color:whitesmoke;
+display: block;
+text-decoration: none;
+text-align: center;
+background-color: rgb(48, 65, 88);
+padding:15px;
+border-radius: 15px;
+border: 2px solid black;
+}
+
+/*Social Links width*/
+.social-links li{
+    width: 100%;
+}
+
+/*Hover and focus for Social Links*/
+.social-links li a:hover,
+.social-links li a:focus{
+    color: whitesmoke;
+    background-color: blue;
+    transition: all 0.3s ease-in-out;
+}
