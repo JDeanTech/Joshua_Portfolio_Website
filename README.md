@@ -34,11 +34,11 @@ This is my portfolio website in order to showcase my skills I have learned and a
 
 2. **Build the Docker image**:
     ```bash
-docker build -t my-portfolio-nginx-image .
+    docker build -t my-portfolio-nginx-image .
 
 3. **Run the Docker container**
     ```bash
-docker-compose up
+    docker-compose up
 
 4. **Open the static site in your local browser**
     - Go To:
@@ -67,13 +67,16 @@ Please follow these steps:
 1. Fork the Repository to your Github account
 
 2. Create a new branch:
-git checkout -b your-new-feature-name
+    ```bash
+    git checkout -b "your-new-feature-name"
 
 3. Once done coding your new feature you can commit your changes:
-git commit -m "Added New Feature"
+    ```bash
+    git commit -m "Added New Feature"
 
 4. Push to your branch:
-git push origin "your-new-feature-name"
+    ```bash
+    git push origin "your-new-feature-name"
 
 5. Open a pull request to merge your branch to mine on my repository
 
