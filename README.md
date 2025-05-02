@@ -33,9 +33,11 @@ This is my portfolio website in order to showcase my skills I have learned and a
     cd joshua_portfolio_website
 
 2. **Build the Docker image**:
+    ```bash
 docker build -t my-portfolio-nginx-image .
 
 3. **Run the Docker container**
+    ```bash
 docker-compose up
 
 4. **Open the static site in your local browser**
@@ -51,9 +53,8 @@ docker-compose up
 
 
 ## Deployment
-The website is live and accessible at: [https://jdeantech.github.io/Joshua_Portfolio_Website/](https://jdeantech.github.io/Joshua_Portfolio_Website/)
+The website is live and accessible at: [https://jdeantech.github.io/Joshua_Portfolio_Website/](https://jdeantech.github.io/Joshua_Portfolio_Website/)  
 It is hosted using GitHub Pages for easy access and sharing.
-
 ## License
 This project is licensed under the MIT License. See the 
 
