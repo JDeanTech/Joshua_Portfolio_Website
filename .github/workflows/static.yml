@@ -26,7 +26,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  # Single deploy job to Github Pages test enviroment
   deploy:
     environment:
       name: test
@@ -39,11 +39,12 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to Github Pages test
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: /build
+            destination_dir: test
+            keep_files: true
+          
+          
