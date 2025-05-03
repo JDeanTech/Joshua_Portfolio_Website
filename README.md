@@ -56,7 +56,7 @@ This is my portfolio website in order to showcase my skills I have learned and a
 The website is live and accessible at: [https://jdeantech.github.io/Joshua_Portfolio_Website/](https://jdeantech.github.io/Joshua_Portfolio_Website/)  
 It is hosted using GitHub Pages for easy access and sharing.
 ## License
-This project is licensed under the MIT License. See the 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE)
 
 ## Contributing
 
