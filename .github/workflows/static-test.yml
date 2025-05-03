@@ -8,7 +8,8 @@ on:
   push:
 
 
-    branches: ["test"]
+    branches: 
+      - test
 
 
  # Allows you to run this workflow manually from the Actions tab
