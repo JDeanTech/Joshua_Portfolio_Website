@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--This allows special characters to be seen-->
+    <meta name="viewport" content="width=device-width,intial-scale=1" />
+    <!--This allows mobile device view scaling-->
+    <title>About</title>
+    <meta
+      name="description"
+      content="This is Joshua Dean and this is my portfolio website that I have built to showcase my ability."
+    />
+
+    <!--og is to be able to share the website link and social media sites see previews of this site-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Joshua's Portfolio Index" />
+    <meta
+      property="og:description"
+      content="This is Joshua Dean and this is my portfolio website that I have built to showcase my ability."
+    />
+
+    <!--Below is commented out because for an og:image you need a full url for the preview to reach-->
+    <!--<meta property="og:image" content="https://mywebsite.com/images/socialmedia-logo.png">-->
+
+    <!--Below is to link any javascript files or CSS files to the doc-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header></header>
+
+    <main></main>
+
+    <footer>
+      <div class="footer">
+        <p>© 2023 Joshua Dean. All rights reserved.</p>
+        <p>Contact:</p>
+      </div>
+    </footer>
+  </body>
+</html>
