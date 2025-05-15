@@ -1,0 +1,21 @@
+<nav class="main-nav">
+    <h1>About</h1>
+    <p>
+            From a young age, I have been passionate about working with computers, which solidified my decision to pursue a career in this field.
+            My first couple years of working in the field I worked in IT Support and entry level Server Administration where I used a lot of Powershell coding to automate and make my job easier.
+            I currently work as a DevSecOps Engineer where I maintain the CI/CD pipeline, oversee application technical debt management, and ensure the application lifecycle operates efficiently.
+    </p>
+   
+    <h2>Based in Alabama I am a DevSecOps Engineer for the US Air Force. 
+        Previously I have worked in the IT Support and Server Administration field.</h2>
+
+        <h3> I am a US Veteran where I worked in Security Forces for 3.5 years before transitioning out and into the IT field.</h3>
+    
+
+    <ul>
+        <li>Currently based out of Central Alabama.</li>
+        <li>I am a DevSecOps Engineer .</li>
+        <li>I have worked in the IT field for 5+ years.</li>
+        <li>I have a Bachelors degree in Applied Computer Science from Troy University.</li>
+    </ul>
+    
