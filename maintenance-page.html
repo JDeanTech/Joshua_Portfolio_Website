@@ -23,35 +23,52 @@
     <!--<meta property="og:image" content="https://mywebsite.com/images/socialmedia-logo.png">-->
 
     <!--Below is to link any javascript files or CSS files to the doc-->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/maint-style.css" />
   </head>
 
   <body>
     <header class="header">
-      <span class="header-logo">
-        <img src="images/coffee.png" alt="coffee-icon" />
-      </span>
-      <span class="header-links">
-        <a href="index.html" aria-label="Joshua">Joshua</a>
-        <a href="index.html" aria-label="Home">Home</a>
-        <a href="maintenance-page.html" aria-label="About">About</a>
-        <a href="maintenance-page.html" aria-label="Resume">Resume</a>
-      </span>
+      <div class="header-left">
+        <s class="header-logo">
+          <img src="images/coffee.png" alt="coffee-icon" />
+        </s>
+        <a href="index.html" class="joshua-link" aria-label="Joshua">Joshua</a>
+      </div>
+
+      <div class="header-right">
+        <span class="header-links">
+          <a href="index.html" class="right-links" aria-label="Home">Home </a>
+          <a href="maintenance-page.html" class="right-links" aria-label="About"
+            >About
+          </a>
+          <a
+            href="maintenance-page.html"
+            class="right-links"
+            aria-label="Resume"
+            >Resume
+          </a>
+        </span>
+      </div>
     </header>
 
     <main>
-      <div class="content-div">
-        <h1>Hey There this Page is Currently Under Construction</h1>
-        <h2>Great Thing are Coming! Check Back Later</h2>
-        <h3>
-          <img src="images/loading_bar.jpg" alt="loading-bar" />
-        </h3>
+      <div class="two-column">
+        <div class="left-column">
+          <div class="content-div">
+            <h2>Hey There this Page is Currently Under Construction</h2>
+            <h3>Great Thing are Coming! Check Back Later</h3>
+            <p><img src="images/loading_bar.jpg" alt="loading-bar" /></p>
+          </div>
+
+          <span class="percentage-span">
+            <strong>0%</strong>
+            <strong>100%</strong>
+          </span>
+        </div>
+        <div class="right-column">
+          <img src="images/under_construction.jpg" alt="under-construction" />
+        </div>
       </div>
-      <span class="percentage-span">
-        <strong>0%</strong>
-        <strong>100%</strong>
-      </span>
-      <img src="images/under_construction.jpg" alt="under-construction" />
     </main>
 
     <footer>
