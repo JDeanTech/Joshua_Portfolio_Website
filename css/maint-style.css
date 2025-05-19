@@ -9,7 +9,7 @@
 }
 /*body styling for the entire body*/
 body {
-  background-color: grey;
+  background-color: rgba(30, 30, 30, 0.7);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +41,7 @@ header {
 
 /*This styles the text of all <a> links*/
 a {
-  color: black;
+  color: #ffd700;
   text-decoration: none;
   padding: 15px;
   text-align: center;
@@ -51,15 +51,15 @@ a {
 
 /*This styles all <a> links hover style*/
 a:hover {
-  color: blue;
-  fill: blue;
+  color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
 /*This is now the styling of the main content*/
 main {
-  background-color: rgb(48, 65, 88);
+  background-color: rgba(30, 30, 30, 0.7);
   width: 100%;
+  padding: 10px 30px;
 }
 
 .two-column {
@@ -68,17 +68,18 @@ main {
   height: 100vh;
 }
 
+.left-column,
+.right-column {
+  min-height: 200px;
+}
+
 .left-column {
-  flex: 0 0 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex: 1 1 100px;
 }
 
 .right-column {
   flex: 1;
   position: relative;
-  height: 100vh;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -92,10 +93,49 @@ main {
 
 /*h2 styling*/
 h2 {
+  color: #ffd700;
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  padding: 20;
 }
 /* h3 styling*/
 h3 {
+  color: #ff5252;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  padding: 20;
 }
-/*p styling*/
-p {
+
+.left-column img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentage {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zero-percent {
+  color: #ff5252;
+  font-size: 1.4rem;
+}
+
+.onehundred-percent {
+  color: #00e676;
+  font-size: 1.4rem;
 }
