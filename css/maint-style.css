@@ -33,9 +33,9 @@ header {
 
 /*image styling for header logo*/
 .header-logo img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
   margin-right: 20px;
 }
 
@@ -89,6 +89,14 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+/*h1 styling*/
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  padding: 20;
 }
 
 /*h2 styling*/
