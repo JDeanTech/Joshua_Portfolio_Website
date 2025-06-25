@@ -1,8 +1,8 @@
 version: "3.9"
 services:
   my-nginx-service:
-    container_name: Joshua-portfolio-nginx
-    image: my-portfolio-nginx-image:latest
+    container_name: joshua-portfolio
+    image: joshua_portfolio:latest
     cpus: 1.5
     mem_limit: 2048m
     ports:
