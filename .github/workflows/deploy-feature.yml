@@ -3,7 +3,7 @@ name: Build and Push Docker Image to Portainer (CI/CD)
 on:
   push:
     branches:
-      - feature/portainercicd # Replace with your working branch
+      - feature/PortainerCICD # Updated to match actual branch name
 
 jobs:
   build-and-push:
