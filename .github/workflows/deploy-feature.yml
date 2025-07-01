@@ -1,9 +1,12 @@
-name: Build and Push Docker Image to Portainer (CI/CD)
+name: Build and Push Docker Image to Docker Hub (CI/CD)
 
 on:
   push:
     branches:
       - feature/PortainerCICD # Updated to match actual branch name
+  pull_request:
+    branches:
+      - test # Test branch for testing
 
 jobs:
   build-and-push:
@@ -29,10 +32,6 @@ jobs:
           images: joshuadean0424/joshua_portfolio
           tags: |
             type=ref,event=branch
-            type=ref,event=pr
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
-            type=sha
             type=raw,value=latest
 
       - name: Build and push Docker image
