@@ -1,9 +1,10 @@
-name: Build and Push Docker Image to Docker Hub (CI/CD)
+# Simple workflow for building and pushing test branch content to Docker Image and then to Docker Hub (CI/CD)
+name: Build and Push Test branch content to Docker Image and then to Docker Hub (CI/CD)
 
 on:
   push:
     branches:
-      - feature/PortainerCICD # Updated to match actual branch name
+      - test # Test branch for testing
   pull_request:
     branches:
       - test # Test branch for testing
@@ -33,6 +34,7 @@ jobs:
           tags: |
             type=ref,event=branch
             type=raw,value=latest
+            type=sha
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
