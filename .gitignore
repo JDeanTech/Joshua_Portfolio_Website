@@ -27,3 +27,13 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Salesforce metadata
+.sfdx/
+
+# VisualStudioCode
+.vscode
+.vscode/*
+.history
+doc/lib/
+run.csh
